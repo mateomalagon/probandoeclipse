@@ -43,6 +43,11 @@ public class Clase1 {
 		this.dato1 = dato1;
 		this.dato2 = dato2;
 	}
+	@Override
+	public String toString() {
+		return "Clase1 [dato1=" + dato1 + ", dato2=" + dato2 + "]";
+	}
+	
 	
 	
 }
